@@ -11,7 +11,6 @@ export default function SignUp() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
-  // removed consolf logs from this component
 
   const handleSubmit = async (e) => {
     e.preventDefault();
